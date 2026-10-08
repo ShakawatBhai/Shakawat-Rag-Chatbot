@@ -85,14 +85,14 @@ st.markdown(f"""
 <div class="topbar">
   <div class="topbar-brand">RAG<span>BOT</span></div>
   <div class="topbar-right">
-    <div class="made-in-india">
+    <div class="made-by-shakawat">
       <svg width="14" height="10" viewBox="0 0 14 10" style="border-radius:1px;overflow:hidden">
         <rect width="14" height="3.33" fill="#FF9933"/>
         <rect y="3.33" width="14" height="3.33" fill="#FFFFFF"/>
         <rect y="6.67" width="14" height="3.33" fill="#138808"/>
         <circle cx="7" cy="5" r="1.2" fill="none" stroke="#000080" stroke-width="0.4"/>
       </svg>
-      Made in India
+      Made by Shakawat
     </div>
     <span class="status-dot {llm_status_class}" title="{llm_status_text}"></span>
   </div>
@@ -741,11 +741,3 @@ with tab_export:
                 st.info("No evaluation data to export.")
 
 
-# ── Footer ───────────────────────────────────────────────────────────
-st.markdown(
-    '<div class="footer-strip">'
-    'Built with LangChain · FAISS · RAGAS · Groq &nbsp;&nbsp;|&nbsp;&nbsp; '
-    '<span>Made in India</span>'
-    '</div>',
-    unsafe_allow_html=True
-)

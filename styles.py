@@ -64,7 +64,7 @@ html, body,
     gap: 1.2rem;
 }
 
-.made-in-india {
+.made-in-shakawat {
     font-family: 'Rajdhani', sans-serif;
     font-size: 0.72rem;
     font-weight: 600;
@@ -79,14 +79,7 @@ html, body,
     gap: 4px;
 }
 
-.india-flag {
-    display: inline-flex;
-    flex-direction: column;
-    width: 14px;
-    height: 10px;
-    border-radius: 1px;
-    overflow: hidden;
-}
+
 
 .status-dot {
     width: 8px; height: 8px;
